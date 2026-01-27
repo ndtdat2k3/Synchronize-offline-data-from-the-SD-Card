@@ -247,7 +247,7 @@ void processOfflineData() {
                SerialMon.print("[SD Upload] OK >> ");
                SerialMon.println(payload); 
                
-               delay(50); 
+               delay(100); 
             } else {
                isNetworkAlive = false;
                SerialMon.println("[SD Upload] Fail (MQTT Error)");
